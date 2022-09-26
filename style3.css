@@ -1,0 +1,118 @@
+.home-section .home-content{
+    position: relative;
+    padding-top: 100px;
+}
+.home-content .overview-boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.overview-boxes .box1{
+    width: calc(100% / 3 - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #a8d8d1;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.overview-boxes .box2{
+    width: calc(100% / 3 - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #e9c0b6;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.overview-boxes .box3{
+    width: calc(100% / 3 - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #e2c9ac;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.overview-boxes .box4{
+    width: calc(100%);
+    display: flex;
+    background: #edebe3;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.overview-boxes .box5{
+    width: calc(100%);
+    display: flex;
+    background: #edebe3;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.overview-boxes .title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.overview-boxes ul li{
+    list-style: square;
+    margin-left: 20px;
+}
+.overview-boxes ol li{
+    margin-left: 20px;
+}
+.overview-boxes .font{
+    font-size: 18px;
+    font-weight: 400;
+}
+.overview-boxes .box-topic1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.overview-boxes .box-topic2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.overview-boxes .box-topic3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.home-content .box1 i, .home-content .box2 i, .home-content .box3 i{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+.home-content .box1 .number, .home-content .box2 .number, .home-content .box3 .number{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -5px;
+    display: inline-block;
+}
+.overview-boxes .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.overview-boxes .button a{
+    color: #fff;
+    background: #0A2558;
+    padding: 4px 12px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.overview-boxes .button a:hover{
+    background:  #0d3073;
+}

@@ -1,0 +1,215 @@
+/*tabel user*/
+.home-content .overview-boxes1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+.home-content .pesan{
+    background-color: #d5f5c9;
+    padding: 10px 15px;
+    border: 1px solid rgb(112, 224, 112);
+    box-shadow: 1px 0px 3px rgb(112, 224, 112);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: calc(96%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.overview-boxes1 .box9{
+    width: calc(63%);
+    display: flex;
+    background: #d2d9e0;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.overview-boxes1 .box10{
+    width: calc(35%);
+    display: flex-end;
+    background: #d2d9e0;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    align-items: baseline;
+}
+.overview-boxes1 .box11{
+    width: calc(100%);
+    display: flex;
+    background: #d2d9e0;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.box11 .subbox11{
+    width: calc(100%);
+}
+.overview-boxes1 .box12{
+    width: calc(100%);
+    display: flex;
+    background: #d2d9e0;
+    padding: 10px 10px; 
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.box12 .subbox12{
+    width: calc(100%);
+    justify-content: center;
+}
+.home-content .title1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.home-content .title2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #84868a;
+}
+.tabel1{
+    border-spacing:1px;
+    overflow: hidden;
+    width: calc(100%);
+    background: #c2bdbd;
+    text-align: center;
+}
+.tabel1 th{
+    background: #84868a;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.tabel1 td{
+    font-size: 14px;
+}
+.tabel1 tr:nth-child(odd){
+    background-color: #e3e2de;
+}
+.tabel1 tr:nth-child(even){
+    background-color: #ffffff;
+}
+.tabel2 td{
+    border-collapse:collapse;
+    border-spacing:0;
+    border: none;
+    width: calc(30%);
+}
+.tabel2 input{
+    background: #f0f0f0;
+    outline: none;
+    border: none;
+    line-height: 2.5;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.tabel2 input::placeholder{
+    color: #aaa;
+    font-weight: 400;
+}
+.tabel2 select{
+    background: #f0f0f0;
+    outline: none;
+    border: none;
+    line-height: 2.5;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+th, td{
+    padding: 8px 15px;
+}
+
+.home-content .tabel1 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+}
+.home-content .tabel1 button i{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #928ec0;
+}
+.home-content .tabel1 button i:hover{
+    background:  #a29fc5;
+}
+.home-content .box11 i{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #928ec0;
+}
+.home-content .box11 i:hover{
+    background:  #a29fc5;
+}
+.overview-boxes1 a{
+    color: #000;
+}
+.overview-boxes1 .error{
+    background-color: #FFECEC;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 137, 137);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+.overview-boxes1 .button{
+    width: 100px;
+    height: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #162e63;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.overview-boxes1 .button:hover{
+    background:  #49556e;
+}
+.overview-boxes1 .btn{
+    width: 250px;
+    height: auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #162e63;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+}
+.overview-boxes1 .btn:hover{
+    background:  #49556e;
+}
